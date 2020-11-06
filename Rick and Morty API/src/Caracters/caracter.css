@@ -1,0 +1,82 @@
+.card{
+    border: 2px solid black;
+    
+    
+    
+    flex: 1 16%;
+    border-radius: 10%;
+    margin: 15px;
+    justify-content: center;
+    background-color: rgb(182, 126, 22);
+    max-width: 300px;
+}
+
+.cardsbutton{
+    background-color: rgb(182, 126, 22);
+    margin: 0;
+    border: 0;
+}
+
+.list{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: space-around;
+}
+
+img{
+    max-width: 200px;
+    margin-top: 15px;
+    border-radius: 20%;
+    
+}
+
+.nume{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.status{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.title{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin:0;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    max-height: 40px;
+}
+
+.pages{
+    color: white;
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+
+.linkedCard{
+    text-decoration: none;
+    color: black;
+}
+
+.linkedCard:hover{
+    color: rgb(83, 71, 29)
+}
